@@ -40,44 +40,45 @@ function toggler() {
 }
 myFunction(blue);
 
-
 //GENERAL SCRIPT
 
-function getNewCards(){
+function getNewCards() {
   location.reload();
-  }
+}
 
 var bingoArray = [
-  "archery.svg",
-"badminton.svg",
-"basketball.svg",
-"boxing.svg",
-"climbing.svg",
-"cycling.svg",
-"diving.svg",
-"driving.svg",
-"football.svg",
-"golf.svg",
-"gymnastics.svg",
-"hang-gliding.svg",
-"hiking.svg",
-"hockey.svg",
-"horse-riding.svg",
-"ice-skating.svg",
-"karate.svg",
-"kayak.svg",
-"paddle-surf.svg",
-"rugby.svg",
-"running.svg",
-"sailing.svg",
-"skiing.svg",
-"surfing.svg",
-"swimming.svg",
-"table-tennis.svg",
-"tennis.svg",
-"weight-lifting.svg",
-"windsurfing.svg",
-"yoga.svg",
+  "actor.svg",
+  "artist.svg",
+  "astronaut.svg",
+  "builder.svg",
+  "chef.svg",
+  "dancer.svg",
+  "dentist.svg",
+  "diver.svg",
+  "doctor.svg",
+  "engineer.svg",
+  "farmer.svg",
+  "firefighter.svg",
+  "flight-attendant.svg",
+  "footballer.svg",
+  "hairdresser.svg",
+  "lawyer.svg",
+  "mechanic.svg",
+  "model.svg",
+  "musician.svg",
+  "nurse.svg",
+  "photographer.svg",
+  "pilot.svg",
+  "police-officer.svg",
+  "postman.svg",
+  "reporter.svg",
+  "singer.svg",
+  "soldier.svg",
+  "taxi-driver.svg",
+  "teacher.svg",
+  "thief.svg",
+  "vet.svg",
+  "waiter.svg"
 ];
 
 function shuffle(bingoArray) {
